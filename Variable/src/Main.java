@@ -31,6 +31,10 @@ public class Main {
 		System.out.println("num1 * num2 = " + (num1 * num2));
 		System.out.println("num1 / num2 = " + (num1 / num2));
 
+		double b = 0.5;
+		int c = (int) (b + 0.5);
+		System.out.println(c);
+
 	}
 
 }
