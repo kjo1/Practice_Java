@@ -44,7 +44,7 @@ public class Main {
 			}
 		}
 
-		// drawing an square shape
+		// drawing a rectangle shape
 		int b = 15;
 		char c = '*';
 
