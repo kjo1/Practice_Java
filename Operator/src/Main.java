@@ -43,6 +43,20 @@ public class Main {
 		double f = Math.pow(3.0, 20.0);
 		System.out.println("3 to the power of 20 is " + (long) f);
 
+		int i = 20;
+		i++;
+		System.out.println(i);
+		i = i + 1;
+		System.out.println(i);
+		i += 1;
+		System.out.println(i);
+
+		// can't do this
+		// System.out.println(100 < i < 200);
+		// instead
+		System.out.println((100 < i) && (i < 200));
+		System.out.println((100 < i) || (i < 200));
+
 	}
 
 	static int max(int d, int e) {
