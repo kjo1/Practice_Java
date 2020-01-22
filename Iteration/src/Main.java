@@ -43,5 +43,16 @@ public class Main {
 				break; // breaking out of an infinite loop
 			}
 		}
+
+		// drawing an square shape
+		int b = 15;
+		char c = '*';
+
+		for (int i = 0; i < b; i++) {
+			for (int j = 0; j < b; j++) {
+				System.out.print(c);
+			}
+			System.out.println();
+		}
 	}
 }
